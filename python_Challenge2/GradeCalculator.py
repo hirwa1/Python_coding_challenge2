@@ -1,0 +1,13 @@
+print('Please enter your Maths mark')
+Math = int(input())
+print('Please enter your Chemistry mark')
+Chem = int(input())
+print('Please enter your Physics mark')
+Phys = int(input())
+grade = (int(Math)*int(Chem)*int(Phys)/100)
+
+if grade >= 70: print('A')
+elif grade >= 60: print('B')
+elif grade >= 50: print('C')
+elif grade >= 40: print('D')
+else : print('You Failed')
